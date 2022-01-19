@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;900&display=swap');
+
+body {
+  color: #424242;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+}
+
+* {
+  transition: .3s;
+}
+
+h1 {
+  font-size: 140px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 78px;
+  margin: 0;
+}
+
+.texto-introduccion {
+  font-size: 50px;
+}
+
+p {
+  font-size: 40px;
+  max-width: 1200px;
+}
+
+
+.proyecto  {
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.proyecto a, .proyecto img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.seccion-skills {
+  background-color: #FAFAFA;
+}
+
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedor-iconos-skills {
+  margin-top: 40px;
+  width: 100%;
+  justify-content: space-between ;
+  display: flex;
+  gap: 35px;
+}
+
+.contenedor-iconos-skills img {
+    flex: 1 0 auto; 
+    width: 200px;
+}
+
+.modo-oscuro,
+.modo-oscuro .seccion-skills {
+  background-color: #424242;
+  color: #FAFAFA;
+}
+
+.nombre {
+  color: #e91e63;
+}
+
+.cat-gif {
+    width: 38%;
+}
+
+.animated:hover {
+    animation: shakeY; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+}
+
+.rainbow-bar {
+    width: calc(100% + 16px);
+    height: 10px;
+    background: linear-gradient(90deg, rgba(252,0,255,1) 0%, rgba(106,0,150,1) 33%, rgba(30,221,212,1) 67%, rgba(250,255,0,1) 100%);
+    position: absolute;
+    margin: -8px;
+}
+
+.end {
+    bottom: 0;
+}
+
+.start {
+    top: 0;
+}
